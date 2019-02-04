@@ -53,11 +53,11 @@ public class MainActivity extends AppCompatActivity
     {
         switch (item.getItemId())
         {
-            case R.id.menuPersonas:
+            case R.id.Personas:
                 Intent intento = new Intent(Principal, personas.class);
                 startActivity(intento);
                 break;
-            case R.id.menuBlocNotas:
+            case R.id.Notas:
                 Intent intento1 = new Intent(Principal, blocNotas.class);
                 startActivity(intento1);
                 break;

@@ -1,8 +1,8 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android" >
     <item
-        android:id="@+id/menuPersonas"
+        android:id="@+id/Personas"
         android:title="@string/menuPersonas" />
     <item
-        android:id="@+id/menuBlocNotas"
+        android:id="@+id/Notas"
         android:title="@string/menuBlocNotas" />
 </menu>
