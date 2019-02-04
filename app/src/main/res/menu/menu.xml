@@ -1,0 +1,8 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item
+        android:id="@+id/menuPersonas"
+        android:title="@string/menuPersonas" />
+    <item
+        android:id="@+id/menuBlocNotas"
+        android:title="@string/menuBlocNotas" />
+</menu>

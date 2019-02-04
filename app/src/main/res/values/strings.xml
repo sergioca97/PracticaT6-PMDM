@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">PracticaT6</string>
+    <string name="blocNotas">Bloc De Notas</string>
+    <string name="Personas">Personas</string>
+    <string name="menuPersonas">Personas</string>
+    <string name="menuBlocNotas">Bloc de Notas</string>
 </resources>
