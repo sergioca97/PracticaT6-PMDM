@@ -1,0 +1,11 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/llamar"
+        android:title="@string/llamar" />
+    <item
+        android:id="@+id/correo"
+        android:title="@string/correo" />
+    <item
+        android:id="@+id/editar"
+        android:title="@string/editar" />
+</menu>
