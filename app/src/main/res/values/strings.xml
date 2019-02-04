@@ -1,7 +1,17 @@
 <resources>
     <string name="app_name">PracticaT6</string>
     <string name="blocNotas">Bloc De Notas</string>
-    <string name="Personas">Personas</string>
+    <string name="personas">Personas</string>
     <string name="menuPersonas">Personas</string>
     <string name="menuBlocNotas">Bloc de Notas</string>
+    <string name="llamar">Llamar</string>
+    <string name="correo">Correo</string>
+    <string name="editar">Editar</string>
+    <string name="txtAyuda">Elegimos la persona a editar.</string>
+    <string name="persona1">Persona1</string>
+    <string name="persona2">Persona2</string>
+    <string name="persona3">Persona3</string>
+    <string name="persona4">Persona4</string>
+    <string name="persona5">Persona5</string>
+    <string name="persona6">Persona6</string>
 </resources>
