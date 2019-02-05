@@ -14,4 +14,9 @@
     <string name="persona4">Persona4</string>
     <string name="persona5">Persona5</string>
     <string name="persona6">Persona6</string>
+    <string name="edtArea">Pulse aquí para escribir.</string>
+    <string name="edtTelefono">Escriba el nuevo teléfono.</string>
+    <string name="edtCorreo">Escriba el nuevo correo.</string>
+    <string name="txtSeleccionar">Selecciona una persona.</string>
+    <string name="btnActualizar">Actualizar Datos</string>
 </resources>
