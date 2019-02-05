@@ -26,8 +26,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(Principal, personas.class);
-                startActivity(intent);
+                Intent intento1 = new Intent(Principal, personas.class);
+                startActivity(intento1);
             }
         });
         imgNotas.setOnClickListener(new View.OnClickListener()
@@ -35,8 +35,8 @@ public class MainActivity extends AppCompatActivity
             @Override
             public void onClick(View v)
             {
-                Intent intent = new Intent(Principal, blocNotas.class);
-                startActivity(intent);
+                Intent intento2 = new Intent(Principal, blocNotas.class);
+                startActivity(intento2);
             }
         });
     }
@@ -54,12 +54,12 @@ public class MainActivity extends AppCompatActivity
         switch (item.getItemId())
         {
             case R.id.Personas:
-                Intent intento = new Intent(Principal, personas.class);
-                startActivity(intento);
+                Intent intento3 = new Intent(Principal, personas.class);
+                startActivity(intento3);
                 break;
             case R.id.Notas:
-                Intent intento1 = new Intent(Principal, blocNotas.class);
-                startActivity(intento1);
+                Intent intento4 = new Intent(Principal, blocNotas.class);
+                startActivity(intento4);
                 break;
         }
         return false;
