@@ -36,7 +36,7 @@ public class blocNotas extends AppCompatActivity
         SharedPreferences.Editor editor = prefs.edit();
         editor.putString("BlocNotas", edtArea.getText().toString());
         editor.commit();
-        Toast.makeText(this,"Texto Guardado con Éxito" , Toast.LENGTH_SHORT).show();
+        Toast.makeText(this,R.string.toastBloc , Toast.LENGTH_SHORT).show();
         return false;
     }
 }
