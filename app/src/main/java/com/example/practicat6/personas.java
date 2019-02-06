@@ -41,8 +41,8 @@ public class personas extends AppCompatActivity
         @Override
         public boolean onTouch(View v, MotionEvent event)
         {
-            telefono="teléfono";
-            correo="correo electrónico";
+            telefono="";
+            correo="";
             registerForContextMenu(imgPersona1);
             return false;
         }
@@ -52,8 +52,8 @@ public class personas extends AppCompatActivity
             @Override
             public boolean onTouch(View v, MotionEvent event)
             {
-                telefono="693418271";
-                correo="correodeprueba@gmail.com";
+                telefono="";
+                correo="";
                 registerForContextMenu(imgPersona2);
                 return false;
             }
@@ -63,8 +63,8 @@ public class personas extends AppCompatActivity
             @Override
             public boolean onTouch(View v, MotionEvent event)
             {
-                telefono="641852197";
-                correo="correodeprueba2@gmail.com";
+                telefono="";
+                correo="";
                 registerForContextMenu(imgPersona3);
                 return false;
             }
@@ -74,8 +74,8 @@ public class personas extends AppCompatActivity
             @Override
             public boolean onTouch(View v, MotionEvent event)
             {
-                telefono="610057120";
-                correo="correodeprueba3@gmail.com";
+                telefono="";
+                correo="";
                 registerForContextMenu(imgPersona4);
                 return false;
             }
@@ -85,7 +85,7 @@ public class personas extends AppCompatActivity
             @Override
             public boolean onTouch(View v, MotionEvent event)
             {
-                telefono="693418271";
+                telefono="";
                 correo="";
                 registerForContextMenu(imgPersona5);
                 return false;
@@ -97,7 +97,7 @@ public class personas extends AppCompatActivity
             public boolean onTouch(View v, MotionEvent event)
             {
                 telefono="";
-                correo="correodeprueba6@gmail.com";
+                correo="";
                 registerForContextMenu(imgPersona6);
                 return false;
             }
@@ -110,10 +110,46 @@ public class personas extends AppCompatActivity
 
     public boolean onContextItemSelected(MenuItem item)
     {
+        String numero="";
+        String correos="";
         prefs = getSharedPreferences("almacenarPersonas", Context.MODE_PRIVATE);
 
         switch(item.getItemId())
         {
+            case R.id.llamar:
+                numero = prefs.getString(telefono, null);
+                if(numero==null)
+                {
+                    Toast.makeText(this, R.string.toastTelefono, Toast.LENGTH_LONG).show();
+                }
+                else
+                {
+                    if (ContextCompat.checkSelfPermission(getApplicationContext(), CALL_PHONE) == PackageManager.PERMISSION_GRANTED)
+                    {
+                        Intent callIntent = new Intent(Intent.ACTION_CALL);
+                        callIntent.setData(Uri.parse(telefono));
+                        startActivity(callIntent);
+                    }
+                    else
+                    {
+                        requestPermissions(new String[]{CALL_PHONE}, 1);
+                    }
+                }
+                break;
+            case R.id.correo:
+                correos = prefs.getString(correo, null);
+                if(correos==null)
+                {
+                    Toast.makeText(this, R.string.toastCorreo, Toast.LENGTH_LONG).show();
+                }
+                else
+                {
+                    Intent emailIntent = new Intent(Intent.ACTION_SEND);
+                    emailIntent.setType("text/plain");
+                    emailIntent.putExtra(Intent.EXTRA_EMAIL, new String[]{correos});
+                    startActivity(emailIntent);
+                }
+                break;
             case R.id.editar:
                 Intent intent2 = new Intent(this, editarDatos.class);
                 startActivity(intent2);
