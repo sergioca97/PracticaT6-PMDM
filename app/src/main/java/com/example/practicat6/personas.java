@@ -13,6 +13,7 @@ import android.view.MenuItem;
 import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageView;
+import android.widget.Toast;
 
 public class personas extends AppCompatActivity
 {
@@ -117,6 +118,39 @@ public class personas extends AppCompatActivity
         Intent intento2 = new Intent(this, editarDatos.class);
         startActivity(intento2);
         return true;
+    }
+    public boolean onContextItemSelected(MenuItem item)
+    {
+        String numero = "";
+        String correos = "";
+        switch(item.getItemId())
+        {
+            case R.id.llamar:
+                if (numero == "")
+                {
+                    Toast.makeText(this, R.string.toastTelefono, Toast.LENGTH_SHORT).show();
+                }
+                else
+                    {
+
+                }
+                break;
+            case R.id.correo:
+                if (numero == "")
+                {
+                    Toast.makeText(this,R.string.toastCorreo , Toast.LENGTH_SHORT).show();
+                }
+                else
+                {
+
+                }
+                break;
+            case R.id.editar:
+                Intent intent2 = new Intent(this, editarDatos.class);
+                startActivity(intent2);
+                return false;
+        }
+        return super.onContextItemSelected(item);
     }
 }
 
