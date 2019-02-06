@@ -5,7 +5,4 @@
     <item
         android:id="@+id/correo"
         android:title="@string/correo" />
-    <item
-        android:id="@+id/editar"
-        android:title="@string/editar" />
 </menu>
