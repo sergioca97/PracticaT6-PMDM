@@ -136,7 +136,7 @@ public class personas extends AppCompatActivity
                 }
                 break;
             case R.id.correo:
-                if (numero == "")
+                if (correo == "")
                 {
                     Toast.makeText(this,R.string.toastCorreo , Toast.LENGTH_SHORT).show();
                 }
