@@ -19,4 +19,14 @@
     <string name="edtCorreo">Escriba el nuevo correo.</string>
     <string name="txtSeleccionar">Selecciona una persona.</string>
     <string name="btnActualizar">Actualizar Datos</string>
+    <string name="toastTelefono">Porfavor, introduzca un teléfono en la persona elegida.</string>
+    <string name="toastCorreo">Porfavor, introduzca un correo electrónico en la persona elegida.</string>
+    <string name="toastPersona1">Has seleccionado la persona 1</string>
+    <string name="toastPersona2">Has seleccionado la persona 2</string>
+    <string name="toastPersona3">Has seleccionado la persona 3</string>
+    <string name="toastPersona4">Has seleccionado la persona 4</string>
+    <string name="toastPersona5">Has seleccionado la persona 5</string>
+    <string name="toastPersona6">Has seleccionado la persona 6</string>
+    <string name="toastCampos">Campos actualizados correctamente.</string>
+    <string name="toastBloc">Texto Guardado con Éxito</string>
 </resources>
