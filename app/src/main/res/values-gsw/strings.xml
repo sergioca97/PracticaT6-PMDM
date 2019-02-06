@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="blocNotas">Notizblock</string>
+    <string name="personas">Leute</string>
+    <string name="menuPersonas">Leute</string>
+    <string name="menuBlocNotas">Notizblock</string>
+    <string name="llamar">Anrufen</string>
+    <string name="correo">Mail</string>
+    <string name="editar">Bearbeiten</string>
+    <string name="txtAyuda">Wir wählen die zu bearbeitende Person.</string>
+    <string name="persona1">Leute1</string>
+    <string name="persona2">Leute2</string>
+    <string name="persona3">Leute3</string>
+    <string name="persona4">Leute4</string>
+    <string name="persona5">Leute5</string>
+    <string name="persona6">Leute6</string>
+    <string name="edtArea">" Klicken Sie hier, um zu schreiben."</string>
+    <string name="edtTelefono">" Schreiben Sie das neue Telefon."</string>
+    <string name="edtCorreo">" Schreiben Sie die neue Mail."</string>
+    <string name="txtSeleccionar">Wählen Sie eine Person aus</string>
+    <string name="btnActualizar">Daten aktualisieren</string>
+    <string name="toastTelefono">Bitte geben Sie eine Telefonnummer in die gewünschte Person ein.</string>
+    <string name="toastCorreo">Bitte geben Sie eine E-Mail-Adresse an.</string>
+    <string name="toastPersona1">" Sie haben die Person 1 ausgewählt"</string>
+    <string name="toastPersona2">" Sie haben die Person 2 ausgewählt"</string>
+    <string name="toastPersona3">" Sie haben die Person 3 ausgewählt"</string>
+    <string name="toastPersona4">" Sie haben die Person 4 ausgewählt"</string>
+    <string name="toastPersona5">" Sie haben die Person 5 ausgewählt"</string>
+    <string name="toastPersona6">" Sie haben die Person 6 ausgewählt"</string>
+    <string name="toastCampos">" Felder wurden korrekt aktualisiert."</string>
+    <string name="toastBloc">Mit Erfolg gespeicherter Text</string>
+</resources>

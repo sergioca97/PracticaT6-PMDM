@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PracticaT6</string>
+    <string name="blocNotas">Bloc notes</string>
+    <string name="personas">Les gens</string>
+    <string name="menuPersonas">Les gens</string>
+    <string name="menuBlocNotas">Bloc notes</string>
+    <string name="llamar">Appel</string>
+    <string name="correo">Mail</string>
+    <string name="editar">Éditer</string>
+    <string name="txtAyuda">" Nous choisissons la personne à éditer."</string>
+    <string name="persona1">Les gens1</string>
+    <string name="persona2">Les gens2</string>
+    <string name="persona3">Les gens3</string>
+    <string name="persona4">Les gens4</string>
+    <string name="persona5">Les gens5</string>
+    <string name="persona6">Les gens6</string>
+    <string name="edtArea">" Cliquez ici pour écrire."</string>
+    <string name="edtTelefono">" Écrivez le nouveau téléphone."</string>
+    <string name="edtCorreo">Écrivez le nouveau courrier.</string>
+    <string name="txtSeleccionar">" Sélectionnez une personne"</string>
+    <string name="btnActualizar">" Mise à jour des données"</string>
+    <string name="toastTelefono">" Veuillez entrer un numéro de téléphone dans la personne choisie."</string>
+    <string name="toastCorreo">" S'il vous plaît, entrez un email dans la personne choisie."</string>
+    <string name="toastPersona1">" Vous avez sélectionné la personne 1"</string>
+    <string name="toastPersona2">" Vous avez sélectionné la personne 2"</string>
+    <string name="toastPersona3">" Vous avez sélectionné la personne 3"</string>
+    <string name="toastPersona4">" Vous avez sélectionné la personne 4"</string>
+    <string name="toastPersona5">" Vous avez sélectionné la personne 5"</string>
+    <string name="toastPersona6">" Vous avez sélectionné la personne 6"</string>
+    <string name="toastCampos">" Les champs mis à jour correctement."</string>
+    <string name="toastBloc">" Texte enregistré avec succès"</string>
+</resources>
